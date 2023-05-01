@@ -1,0 +1,34 @@
+Office Attendance Management System
+This is a simple attendance management system implemented using Python's Tkinter library and SQLite database. The system allows users to register, login, and mark their attendance as present or absent. An admin page is also provided to view the attendance records of all users.
+
+#Dependencies
+The following dependencies are required to run the system:
+
+#Python 3
+Tkinter (built-in with Python 3)
+SQLite3 (built-in with Python 3)
+
+#Usage
+To run the system, simply run the following command in the terminal:
+     #python attendance.py
+This will launch the GUI for the system. Users can then register, login, and mark their attendance using the provided interface.
+
+#Implementation
+The system consists of four main components:
+
+Login page: This allows users to login to the system using their registered username and password. If the user is valid, they are directed to the attendance page.
+
+Registration page: This allows users to register a new account by providing a valid username and password. If the registration is successful, a success message is displayed.
+
+Attendance page: This displays the user's username, date, and allows them to mark their attendance as present or absent.
+
+Admin page: This allows admins to view the attendance records of all users.
+
+The system uses SQLite database to store user information and attendance records.
+
+#Limitations
+This system is a simple implementation and has several limitations:
+
+There is no authentication mechanism to ensure that only admins can access the admin page.
+The system does not enforce strong password requirements.
+The system does not provide any data visualization or analysis of attendance records.
